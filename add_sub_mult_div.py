@@ -19,3 +19,7 @@ def div(a, b):
 def logariphm_two(a):
     return math.log(a, 2)
 
+
+def logariphm_natural(a):
+    return math.log(a)
+

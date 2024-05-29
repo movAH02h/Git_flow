@@ -31,4 +31,8 @@ elif action == "log2":
     print("Введите число:")
     a = int(input())
     print("log2(a) = ", add_sub_mult_div.logariphm_two(a))
+elif action == "logE":
+    print("Введите число:")
+    a = int(input())
+    print("log2(a) = ", add_sub_mult_div.logariphm_natural(a))
 
