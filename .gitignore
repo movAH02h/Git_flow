@@ -1,3 +1,13 @@
 tests/
 
 .idea/
+
+.venv/
+
+tests/
+
+./github
+
+*.yml
+
+__pycache__/
