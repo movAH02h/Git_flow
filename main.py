@@ -35,4 +35,7 @@ elif action == "logE":
     print("Введите число:")
     a = int(input())
     print("log2(a) = ", add_sub_mult_div.logariphm_natural(a))
-
+elif action == "sqrt":
+    print("Введите число:")
+    a = int(input())
+    print("log2(a) = ", add_sub_mult_div.sqrt(a))

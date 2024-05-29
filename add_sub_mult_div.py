@@ -23,3 +23,7 @@ def logariphm_two(a):
 def logariphm_natural(a):
     return math.log(a)
 
+
+def sqrt(a):
+    return math.sqrt(a)
+
