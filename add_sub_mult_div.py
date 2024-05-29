@@ -1,31 +1,31 @@
 import math
 
 def add(a, b):
-    return a + b
+    return round(a + b, 2)
 
 def subtraction(a, b):
-    return a - b
+    return round(a - b, 2)
 
 def multiple(a, b):
-    return a * b
+    return round(a * b, 2)
 
 def div(a, b):
-    return a // b
+    return round(a // b, 2)
 
 def logariphm_two(a):
-    return math.log(a, 2)
+    return round(math.log(a, 2), 2)
 
 def logariphm_natural(a):
-    return math.log(a)
+    return round(math.log(a), 2)
 
 def sqrt(a):
-    return math.sqrt(a)
+    return round(math.sqrt(a), 2)
 
 def sqrt3(a):
-    return a ** (1 / 3)
+    return round(a ** (1 / 3), 2)
 
 def sqrtN(a, n):
-    return a ** (1 / n)
+    return round(a ** (1 / n), 2)
 
 
 
