@@ -22,10 +22,10 @@ def sqrt(a):
     return math.sqrt(a)
 
 def sqrt3(a):
-    return a ** (1 // 3)
+    return a ** (1 / 3)
 
 def sqrtN(a, n):
-    return a ** (1 // n)
+    return a ** (1 / n)
 
 
 

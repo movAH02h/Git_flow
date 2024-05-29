@@ -26,18 +26,29 @@ elif action == "division":
     a = int(input())
     print("Введите второе число:")
     b = int(input())
+    if b == 0:
+        print("На ноль делить нельзя")
     print("a // b = " + add_sub_mult_div.div(a, b))
 elif action == "log2":
     print("Введите число:")
     a = int(input())
+    if a < 0:
+        print("Число a не может быть отрицательным")
+        exit(200)
     print("log2(a) = ", add_sub_mult_div.logariphm_two(a))
 elif action == "logE":
     print("Введите число:")
     a = int(input())
+    if a < 0:
+        print("Число a не может быть отрицательным")
+        exit(200)
     print("logE(a) = ", add_sub_mult_div.logariphm_natural(a))
 elif action == "sqrt":
     print("Введите число:")
     a = int(input())
+    if a < 0:
+        print("Число a не может быть отрицательным")
+        exit(200)
     print("sqrt(a) = ", add_sub_mult_div.sqrt(a))
 elif action == "sqrt3":
     print("Введите число:")
@@ -48,4 +59,6 @@ elif action == "sqrtN":
     a = int(input())
     print("Введите степень корня:")
     n = int(input())
+    if n % 2 == 0 and a < 0:
+        print("Число a не может быть отрицательным")
     print("sqrtN(a) = ", add_sub_mult_div.sqrtN(a, n))
