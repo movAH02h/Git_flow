@@ -43,3 +43,9 @@ elif action == "sqrt3":
     print("Введите число:")
     a = int(input())
     print("sqrt3(a) = ", add_sub_mult_div.sqrt3(a))
+elif action == "sqrtN":
+    print("Введите число a:")
+    a = int(input())
+    print("Введите степень корня:")
+    n = int(input())
+    print("sqrtN(a) = ", add_sub_mult_div.sqrtN(a, n))
