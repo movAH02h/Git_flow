@@ -4,10 +4,6 @@ tests/
 
 .venv/
 
-tests/
-
-./github
-
 *.yml
 
 __pycache__/
