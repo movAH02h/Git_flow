@@ -15,4 +15,4 @@ jobs:
     steps:
     - name: Five tests for binary search using -PYTEST-
       run: |
-        pytest ./tests/test_add_sub_mult_div.py
+        pytest 
