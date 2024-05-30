@@ -1,9 +1,5 @@
-tests/
-
 .idea/
 
 .venv/
-
-*.yml
 
 __pycache__/
