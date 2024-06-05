@@ -34,7 +34,7 @@ jobs:
 
       - name: Create tag in public repository
         run: |
-          git tag ${{ steps.get_tag.outputs.tag }}
+          git tag -a v1.5
           git push origin --tags 
 
       - name: Create GitHub Release
@@ -43,7 +43,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
+          tag_name: v1.5
+          release_name: Release v1.5
           draft: false
           prerelease: false
