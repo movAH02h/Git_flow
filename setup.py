@@ -3,7 +3,7 @@ from setuptools import setup
 long_description = open('README.md').read()
 
 setup(
-   name='pypackage',
+   name='my-new-release-project-aba',
    description='good job',
    long_description_content_type="text/markdown",
    long_description=long_description,
