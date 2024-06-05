@@ -1,4 +1,4 @@
-import add_sub_mult_div
+from package1 import add_sub_mult_div
 
 print("Введите действие:")
 action = input()

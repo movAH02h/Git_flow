@@ -1,4 +1,4 @@
-import add_sub_mult_div
+from package1 import add_sub_mult_div
 
 
 def test_add():
@@ -6,7 +6,7 @@ def test_add():
 def test_sub():
     assert add_sub_mult_div.subtraction(5, 2) == 3
 def test_multiply():
-    assert add_sub_mult_div.multiple(5,5) == 25
+    assert add_sub_mult_div.multiple(5, 5) == 25
 def test_div():
     assert add_sub_mult_div.div(10, 5) == 2
 def test_log2():
