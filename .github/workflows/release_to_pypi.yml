@@ -1,7 +1,11 @@
+name: release Python project
+
 on:
   push:
     tags:
       - "v*"
+    branches:
+      - main
 
 jobs:
 
