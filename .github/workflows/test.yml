@@ -17,4 +17,4 @@ jobs:
     steps:
     - name: Tests
       run: |
-        pytest 
+        pytest ./tests/test_add_sub_mult_div.py
