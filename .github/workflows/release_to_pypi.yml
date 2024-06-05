@@ -23,7 +23,6 @@ jobs:
 
       - name: Build source and wheel distribution
         run: |
-          python -m pip install
           python -m pip install --upgrade build twine
           python -m build
           twine check --strict dist/*
