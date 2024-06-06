@@ -1,4 +1,4 @@
-from package1 import add_sub_mult_div
+import add_sub_mult_div
 
 
 def test_add():
